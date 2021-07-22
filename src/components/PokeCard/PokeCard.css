@@ -1,0 +1,18 @@
+.poke-card{
+    width: 18rem;
+    margin: 10px;
+    max-height: 400px;
+}
+
+.poke-body{
+    background-color: var(--pokeball-red);
+    color: var(--txt-primary);
+}
+
+.pokemon-list-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    width: 100%;
+}

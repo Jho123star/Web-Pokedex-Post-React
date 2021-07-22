@@ -5,9 +5,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root{
+  --bg-dark-primary : #1a1a1a;
+  --bg-dark-surface : #b1b1b1;
+  --txt-primary : #ffffff;
+  --pokeball-red :#ff4040;
+}
+
+a:hover{
+  color: var(--txt-primary);
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
 }

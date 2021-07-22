@@ -1,0 +1,17 @@
+.BackToTopBtn{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--pokeball-red);
+    text-align: center;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    z-index: 1;
+}
+
+.BackToTopBtn a{
+    color: var(--txt-primary);
+    font-size: xx-large;
+    text-decoration: none;
+}

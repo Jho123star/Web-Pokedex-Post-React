@@ -1,0 +1,17 @@
+.poke-image{
+    min-width: 25vw;
+    min-height: 15vh;
+}
+
+.poke-desc{
+    margin-right: 5vw;
+}
+
+.fav-btn{
+    cursor: pointer;
+    font-size: large;
+    background-color: var(--pokeball-red);
+    color: var(--txt-primary);
+    padding: 1.5vw;
+    border-radius: 2vw;
+}

@@ -1,0 +1,14 @@
+.poke-nav {
+    background-color: var(--pokeball-red);
+}
+
+.poke-toggle{
+    background-color: var(--txt-primary);
+    color: var(--pokeball-red);
+    text-align: center; 
+    line-height: 30px;
+}
+
+.poke-link{
+    color: var(--txt-primary);
+}
