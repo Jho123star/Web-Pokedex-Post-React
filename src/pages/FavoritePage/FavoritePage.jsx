@@ -1,5 +1,5 @@
 import { gql, useQuery } from "@apollo/client";
-import { Fragment, useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import PokeCard from "../../components/PokeCard/PokeCard";
 import './FavoritePage.css'
